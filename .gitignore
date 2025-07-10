@@ -5,6 +5,8 @@
 .env.production
 .phpactor.json
 .phpunit.result.cache
+/app/Http/Controllers/Test.php
+/resources/views/test.blade.php
 git
 version.json
 /.fleet

@@ -20,8 +20,8 @@ class Tanggal
         return Carbon::parse($waktu)->setTimezone($tz);
     }
 
-    public static function waktuBerlalu(
-        $waktuAwal,
+    public static function selisih(
+        $waktuAwal = '2020-07-22T00:00:00.000000Z',
         $waktuAkhir = null,
         bool $tampilkanSatuan = true,
         ?string $timezone = null
